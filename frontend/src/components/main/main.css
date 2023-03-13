@@ -1,0 +1,37 @@
+.chatList {
+    border: 1px black solid;
+}
+
+.chats {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.inputMessage {
+    height: 10%;
+    overflow: hidden;
+}
+
+
+.message-list {
+    height: 90%;
+    overflow: auto;
+}
+
+.inputMessage {
+    margin-bottom: 10%;
+}
+
+.usersList {
+    height: 85%;
+    overflow: auto;
+}
+
+.messages {
+    border: 1px black solid;
+}
+
+.chatsList {
+    overflow: auto;
+    overflow-x: hidden;
+}

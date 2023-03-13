@@ -1,0 +1,14 @@
+FROM python:3.10.7-slim-bullseye
+
+WORKDIR /code
+ENV PIP_DISABLE_PIP_VERSION_CHECK 1
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+ENV CLIENT_ID 221906549886-rv3pq3ei43t6ok1rpjba8liiocrpart9.apps.googleusercontent.com
+ENV CLIENT_SECRET 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
+ENV OAUTHLIB_INSECURE_TRANSPORT 1
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY . .

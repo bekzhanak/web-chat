@@ -1,0 +1,12 @@
+.navtext {
+    text-align: end;
+}
+
+.navtext span {
+    color: white;
+}
+
+
+.webchat {
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.loginButton {
+    width: 100%;
+}
+
+.loginContainer {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.googleButton {
+    margin-top: 2%;
+}
